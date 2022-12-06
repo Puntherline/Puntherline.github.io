@@ -1,0 +1,86 @@
+:root {
+	--elevation-0: #121212;
+	--elevation-1: #1d1d1d;
+	--elevation-2: #212121;
+	--elevation-3: #242424;
+	--elevation-4: #262626;
+	--elevation-5: #2c2c2c;
+	--elevation-6: #2d2d2d;
+	--elevation-7: #313131;
+	--elevation-8: #343434;
+	--elevation-9: #373737;
+	--code-bg: #282a36;
+	
+	--default-text: #cecece;
+	--gray-text: #bfbfbf;
+	--accent-text: #f40552;
+}
+
+body {
+	background-color: var(--elevation-1);
+	color: var(--default-text);
+}
+
+header {
+	background-color: var(--elevation-4);
+}
+
+nav {
+	background-color: var(--elevation-4);
+}
+
+nav, div {
+	color: var(--default-text);
+}
+
+nav, ul, li{
+	color: var(--default-text)!important;
+}
+
+aside {
+	background-color: var(--elevation-2);
+}
+
+.docContent pre {
+	background: var(--code-bg)!important;
+}
+
+code {
+	color: var(--gray-text);
+}
+
+div .alert {
+	background-color: var(--elevation-3);
+}
+
+a {
+	color: var(--default-text);
+}
+
+code, span {
+	color: var(--gray-text)!important;
+}
+
+.code {
+	background-color: var(--code-bg)!important;
+}
+
+.examples pre {
+	background-color: var(--code-bg)!important;
+}
+
+.tsd-index-panel h3 {
+	border-color: var(--elevation-7);
+}
+
+.tsd-panel {
+	background-color: var(--elevation-0);
+}
+
+.tsd-panel>h3 {
+	border-color: var(--elevation-7);
+}
+
+.tsd-signatures {
+	border-color: var(--elevation-7);
+}
